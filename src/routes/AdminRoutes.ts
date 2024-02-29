@@ -1,11 +1,14 @@
-import express,{Request,Response,NextFunction} from 'express'
-import { CreateVendor, GetVendor, GetVendorByID } from '../controller/AdminController';
+import express, { Request, Response, NextFunction } from "express";
+import {
+  CreateVendor,
+  GetVendor,
+  GetVendorByID,
+} from "../controller/AdminController";
 
-const router= express.Router();
+const router = express.Router();
 
-router.post('/vendor',CreateVendor)
-router.get('/vendor',GetVendor)
-router.get('/vendor/:id',GetVendorByID)
+router.post("/vendor", CreateVendor);
+router.get("/vendor", GetVendor);
+router.get("/vendor/:id", GetVendorByID);
 
-
-export {router as AdminRoutes}
+export { router as AdminRoutes };

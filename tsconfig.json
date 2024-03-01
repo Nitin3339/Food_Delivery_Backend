@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es2016",
+    "target": "es2018",
     "experimentalDecorators": true,
-    "lib":["DOM","ES6","ESNext.AsyncIterable"],
+    "lib": ["ES6", "ESNext.AsyncIterable"],
     "sourceMap": true,
     "outDir": "./dist",
     "rootDir": "./src",
@@ -13,6 +13,6 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "strictPropertyInitialization": false,
+    "strictPropertyInitialization": false
   }
 }
